@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>沖縄旅行後の悲劇：妻 vs 俺</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/blood.min.css">
+    <style>
+        .comparison-table { width: 100%; border-collapse: collapse; }
+        .comparison-table td { padding: 20px; border: 1px solid #555; font-size: 0.8em; }
+        .wife { color: #ff8fb1; font-weight: bold; }
+        .me { color: #87ceeb; font-weight: bold; }
+        .highlight { color: #ffff00; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+
+            <section>
+                <h2>沖縄旅行の代償</h2>
+                <h3>～ウイルスとの戦い～</h3>
+                <p><span class="wife">妻の超回復</span> vs <span class="me">俺のリレンザ</span></p>
+            </section>
+
+            <section>
+                <h2>1. 潜伏していた刺客</h2>
+                <p>楽しかった沖縄旅行から帰宅。</p>
+                <p class="fragment">しかし、そこには<span class="highlight">「蓄積された疲れ」</span>という落とし穴が待っていた…。</p>
+            </section>
+
+            <section>
+                <h2>2. 妻、発熱。そして…</h2>
+                <table class="comparison-table">
+                    <tr>
+                        <td class="wife">妻の状態</td>
+                        <td>37度を超える発熱を検知。</td>
+                    </tr>
+                    <tr>
+                        <td class="highlight">結果</td>
+                        <td>「ちょっと寝るわ」の一言。次の瞬間には完治して家事をこなす驚異の細胞。</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section>
+                <h2>3. 一方の俺は…</h2>
+                <table class="comparison-table">
+                    <tr>
+                        <td class="me">俺の状態</td>
+                        <td>旅行の疲れがダイレクトに免疫を直撃。</td>
+                    </tr>
+                    <tr>
+                        <td class="highlight">経過</td>
+                        <td>じわじわと体力を削られ、逃げ場を失う。</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section>
+                <h2>4. 最終兵器投入</h2>
+                <p>自力での回復を断念。</p>
+                <h3 class="me">リレンザ、吸引開始。</h3>
+                <p style="font-size: 0.7em;">（※娘と孫が無事なのが唯一の救い）</p>
+            </section>
+
+            <section>
+                <h2>結論：学んだこと</h2>
+                <ul>
+                    <li class="fragment">ウイルスは常にそこにある。</li>
+                    <li class="fragment">疲れと加齢は免疫の天敵。</li>
+                    <li class="fragment"><span class="wife">妻の免疫システムは宇宙一。</span></li>
+                </ul>
+            </section>
+
+        </div>
+    </div>
+
+    <script>
+        Reveal.initialize({
+            hash: true,
+            center: true,
+            transition: 'zoom'
+        });
+    </script>
+</body>
+</html>
