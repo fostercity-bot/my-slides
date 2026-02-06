@@ -2,102 +2,100 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <title>僕と妻の違い</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>風邪のひき方比較：妻 vs 俺</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/league.min.css">
     <style>
-        body {
-            font-family: 'Helvetica Neue', Arial, sans-serif;
-            background-color: #f0f4f8;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            overflow: hidden;
-        }
-
-        .container {
-            text-align: center;
-            width: 80%;
-            max-width: 600px;
-        }
-
-        .slide-box {
-            background: white;
-            padding: 40px;
-            border-radius: 20px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-            position: relative;
-            min-height: 200px;
-        }
-
-        h2 { color: #333; margin-bottom: 30px; }
-
-        /* 風のスライドアニメーション */
-        .slide-content {
-            animation: wind-slide 1.2s ease-out forwards;
-            opacity: 0;
-        }
-
-        @keyframes wind-slide {
-            0% {
-                transform: translateX(100px) skewX(-10deg);
-                filter: blur(5px);
-                opacity: 0;
-            }
-            100% {
-                transform: translateX(0) skewX(0deg);
-                filter: blur(0);
-                opacity: 1;
-            }
-        }
-
-        .comparison {
-            display: flex;
-            justify-content: space-around;
-            gap: 20px;
-        }
-
-        .card {
-            flex: 1;
-            padding: 20px;
-            border-radius: 15px;
-        }
-
-        .me { background-color: #e3f2fd; color: #1565c0; }
-        .wife { background-color: #fce4ec; color: #c2185b; }
-
-        .label { font-weight: bold; font-size: 1.2rem; display: block; margin-bottom: 10px; }
-        .trait { font-size: 0.9rem; line-height: 1.6; }
-
+        .comparison-table { width: 100%; border-collapse: collapse; }
+        .comparison-table td { padding: 20px; border: 1px solid #555; }
+        .wife { color: #ff8fb1; font-weight: bold; }
+        .me { color: #87ceeb; font-weight: bold; }
     </style>
 </head>
 <body>
+    <div class="reveal">
+        <div class="slides">
 
-<div class="container">
-    <div class="slide-box">
-        <div class="slide-content">
-            <h2>夫婦の性格バランス</h2>
-            <div class="comparison">
-                <div class="card me">
-                    <span class="label">自分</span>
-                    <div class="trait">
-                        ・のんびり屋<br>
-                        ・理論派<br>
-                        ・趣味に没頭
-                    </div>
-                </div>
-                <div class="card wife">
-                    <span class="label">妻</span>
-                    <div class="trait">
-                        ・しっかり者<br>
-                        ・直感派<br>
-                        ・社交的
-                    </div>
-                </div>
-            </div>
+            <section>
+                <h1>徹底比較</h1>
+                <h3>風邪をひいた時の反応</h3>
+                <p><span class="wife">妻</span> vs <span class="me">俺</span></p>
+                <p style="font-size: 0.5em;">（※個人の感想です）</p>
+            </section>
+
+            <section>
+                <h2>1. 初期症状の対応</h2>
+                <table class="comparison-table">
+                    <tr>
+                        <td class="wife">妻</td>
+                        <td>「気のせい」と言って家事を完遂する。</td>
+                    </tr>
+                    <tr>
+                        <td class="me">俺</td>
+                        <td>36.7℃で「あ、これ終わったわ」と悟る。</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section>
+                <h2>2. 周囲へのアピール</h2>
+                <table class="comparison-table">
+                    <tr>
+                        <td class="wife">妻</td>
+                        <td>倒れる直前まで「大丈夫」しか言わない。</td>
+                    </tr>
+                    <tr>
+                        <td class="me">俺</td>
+                        <td>5分おきに「喉痛い」「熱上がったかも」と報告。</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section>
+                <h2>3. 食事のスタイル</h2>
+                <table class="comparison-table">
+                    <tr>
+                        <td class="wife">妻</td>
+                        <td>ウィダーinゼリーで秒速チャージ。</td>
+                    </tr>
+                    <tr>
+                        <td class="me">俺</td>
+                        <td>「お粥がいいな、あとポカリ買ってきて」と注文が多い。</td>
+                    </tr>
+                </table>
+            </table></section>
+
+            <section>
+                <h2>4. 回復までのプロセス</h2>
+                <table class="comparison-table">
+                    <tr>
+                        <td class="wife">妻</td>
+                        <td>一晩寝たら気合で治して朝食を作っている。</td>
+                    </tr>
+                    <tr>
+                        <td class="me">俺</td>
+                        <td>治った後も3日間は「病み上がりアピール」が続く。</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section>
+                <h2>結論</h2>
+                <h3 class="fragment">妻、最強。</h3>
+                <p class="fragment">（いつもありがとうございます）</p>
+            </section>
+
         </div>
     </div>
-</div>
 
+    <script>
+        Reveal.initialize({
+            hash: true,
+            center: true,
+            transition: 'slide'
+        });
+    </script>
 </body>
-</html>l
+</html>
