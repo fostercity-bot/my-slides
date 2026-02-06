@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>僕と妻の違い</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #f0f4f8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .container {
+            text-align: center;
+            width: 80%;
+            max-width: 600px;
+        }
+
+        .slide-box {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            position: relative;
+            min-height: 200px;
+        }
+
+        h2 { color: #333; margin-bottom: 30px; }
+
+        /* 風のスライドアニメーション */
+        .slide-content {
+            animation: wind-slide 1.2s ease-out forwards;
+            opacity: 0;
+        }
+
+        @keyframes wind-slide {
+            0% {
+                transform: translateX(100px) skewX(-10deg);
+                filter: blur(5px);
+                opacity: 0;
+            }
+            100% {
+                transform: translateX(0) skewX(0deg);
+                filter: blur(0);
+                opacity: 1;
+            }
+        }
+
+        .comparison {
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+        }
+
+        .card {
+            flex: 1;
+            padding: 20px;
+            border-radius: 15px;
+        }
+
+        .me { background-color: #e3f2fd; color: #1565c0; }
+        .wife { background-color: #fce4ec; color: #c2185b; }
+
+        .label { font-weight: bold; font-size: 1.2rem; display: block; margin-bottom: 10px; }
+        .trait { font-size: 0.9rem; line-height: 1.6; }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="slide-box">
+        <div class="slide-content">
+            <h2>夫婦の性格バランス</h2>
+            <div class="comparison">
+                <div class="card me">
+                    <span class="label">自分</span>
+                    <div class="trait">
+                        ・のんびり屋<br>
+                        ・理論派<br>
+                        ・趣味に没頭
+                    </div>
+                </div>
+                <div class="card wife">
+                    <span class="label">妻</span>
+                    <div class="trait">
+                        ・しっかり者<br>
+                        ・直感派<br>
+                        ・社交的
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>l
